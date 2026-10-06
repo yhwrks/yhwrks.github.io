@@ -1,0 +1,17 @@
+# Public website repository: exclude local-only and credential-like files.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+client_secret*.json
+token*.json
+oauth*.json
+google-ads*.yaml
+google-ads*.yml
+secrets/
+.private/
+.DS_Store
